@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
+
+body,
+h1,
+h2,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #74C69D;
+    color: #ffff;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #ffff;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    position: static;
+    flex-wrap: nowrap;
+    margin: 1.5rem 5rem 0 8.125rem;
+}
+
+.menu img {
+    width: 180px;
+    height: 3.125rem;
+}
+
+.menu nav {
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #ffff;
+    font-family: 'Work Sans';
+    font-weight: 400px;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.container-flex {
+    background-color: #74C69D;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0 8.125rem;
+}
+
+.container-flex img {
+    align-self: center;
+    width: 1000px;
+}
+
+.container-cont {
+    display: block;
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
+}
+
+.container-cont h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Work Sans';
+    margin-bottom: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 5px;
+}
+
+.container-cont H1 {
+    font-family: 'Crimson Text';
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    margin-bottom: 1rem;
+}
+
+.container-cont p {
+    font-family: 'Work Sans';
+    opacity: 75%;
+    font-weight: 400px;
+    font-size: 0.9rem;
+}
+
+.container-cont button {
+    height: 48px;
+    width: 170px;
+    background-color: #ffff;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Work Sans';
+    font-weight: 400px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.container-cont button:hover {
+    font-size: 1.2rem;
+}
+
+
+.container-parceiro {
+    background-color: #ffff;
+    color: black;
+    margin: 0 8.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    width: 25.688rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.sub-titulo-green {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Work Sans';
+    margin: 1rem 0;
+    line-height: 1.25rem;
+    letter-spacing: 5px;
+    color: #74C69D;
+
+}
+
+.titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Crimson Text';
+    line-height: 3.125rem;
+    margin-bottom: 1rem;
+}
+
+.sub-titulo {
+    font-family: 'Work Sans';
+    font-weight: 400px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.flex-parceiro {
+    display: inline-flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.flex-parceiro img {
+    height: 36px;
+}
+
+.btn-info {
+    width: 10.625rem;
+    height: 3rem;
+    background-color: black;
+    color: #ffff;
+    border-radius: 0.313rem;
+    margin-bottom: 7.375rem;
+    cursor: pointer;
+}
+
+.flex-info-parceiro {
+    background-color: #ffff;
+    color: black;
+    margin: 0 8.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 72px;
+    margin-bottom: 5rem;
+
+}
+
+.flex-info-parceiro img {
+    width: 500px;
+}
+
+.info-pareiro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 470px;
+    height: 255px;
+}
+
+.titulo-info {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Crimson Text';
+    line-height: 3.125rem;
+    margin-bottom: 1rem;
+}
+
+.sub-info {
+    font-size: 0.938rem;
+    color: rgba(33, 37, 41, 0.5);
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.grup-rigth {
+    width: 565.75px;
+}
+
+.flex-card {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-bottom: 3rem;
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+    height: 299px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.card-info {
+    padding: 20px;
+    align-self: center;
+
+}
+
+.card img {
+    align-self: center;
+    width: 165px;
+    height: 165px;
+}
+
+.card h3 {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    color: #212529;
+}
+
+.card p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: rgba(33, 37, 41, 0.75);
+    text-transform: uppercase;
+
+}
+
+footer {
+
+    background-color: #74C69D;
+}
+
+.footer-cont {
+    display: flex;
+    height: 105px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 8.125rem;
+}
+
+.foot-color h1 {
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Work Sans';
+    letter-spacing: 2px;
+}

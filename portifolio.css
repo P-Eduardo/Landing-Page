@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
+
+
+body,
+h1,
+h2,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 80px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.header-menu {
+    width: 100vw;
+    background-color: #74C69D;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    flex-wrap: nowrap;
+    margin: 0 5rem 0 8.125rem;
+    padding: 1rem 0;
+
+}
+
+.menu img {
+    width: 180px;
+    height: 3.125rem;
+}
+
+.menu nav {
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #ffff;
+    font-family: 'Work Sans';
+    font-weight: 400px;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.container-parceiro {
+    background-color: #ffff;
+    color: black;
+    margin: 0 8.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    width: 25.688rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.sub-titulo-green {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Work Sans';
+    margin: 1rem 0;
+    line-height: 1.25rem;
+    letter-spacing: 5px;
+    color: #74C69D;
+
+}
+
+.titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Crimson Text';
+    line-height: 3.125rem;
+    margin-bottom: 1rem;
+}
+
+.sub-titulo {
+    font-family: 'Work Sans';
+    font-weight: 400px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.grid-img {
+    display: grid;
+    margin: 0 8.125rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.grid-img img {
+    width: 570px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.btn-info {
+    width: 10.625rem;
+    height: 3rem;
+    background-color: black;
+    color: #ffff;
+    border-radius: 0.313rem;
+    margin-top: 4.375rem;
+    margin-bottom: 3.375rem;
+    cursor: pointer;
+}
+
+.card {
+    min-width: 340px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+.card-info {
+    padding: 30px 30px 0 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-info ul {
+    align-self: flex-start;
+    line-height: 1.5rem;
+}
+
+.card-type {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Work Sans';
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    justify-content: center;
+}
+
+.strong-price {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-underline-offset: initial;
+}
+
+.normal-price {
+    color: rgba(33, 37, 41, 0.5)
+}
+
+.card-desc {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Work Sans';
+    text-align: center;
+    color: rgba(33, 37, 41, 0.5);
+
+}
+
+.card-list li {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    align-self: center;
+    position: relative;
+    margin-left: 35px;
+    height: 20px;
+    padding: 10px 0 5px 0;
+}
+
+.card-list li::before {
+    content: "";
+    display: inline-block;
+    background-image: url(./img/Vector.svg);
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    position: absolute;
+    left: -35px;
+}
+
+.card-btn {
+    margin: 45px 0;
+    width: 170px;
+    height: 48px;
+    background-color: black;
+    color: #ffff;
+    border-radius: 0.313rem;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.grid-planos {
+    display: grid;
+    margin: 0 8.125rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+footer {
+
+    background-color: #74C69D;
+}
+
+.footer-cont {
+    display: flex;
+    height: 105px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 8.125rem;
+}
+
+.foot-color h1 {
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Work Sans';
+    letter-spacing: 2px;
+}
