@@ -260,3 +260,68 @@ footer {
     font-family: 'Work Sans';
     letter-spacing: 2px;
 }
+
+
+.grid-contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 375px;
+    margin-bottom: 93px;
+}
+
+form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+form div {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+iframe {
+    max-width: 100%;
+    max-height: 375px;
+}
+
+.text-input {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    border: solid 1px black;
+    background-color: #EEEEEE;
+}
+
+.text-area {
+    height: 60px;
+}
+
+.btn-input {
+
+    height: 48px;
+    background-color: black;
+    color: #ffff;
+    border-radius: 0.313rem;
+}
+
+form label {
+
+    margin-bottom: 5px;
+}
+
+form input {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.gri-contato iframe {
+    grid-column: 1;
+}
